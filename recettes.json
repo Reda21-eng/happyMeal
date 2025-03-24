@@ -1,0 +1,26 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "duration": 30,
+        "ingredients": ["spaghetti", "œufs", "bacon", "parmesan"],
+        "steps": [
+          "Faire cuire les pâtes.",
+          "Faire revenir le bacon.",
+          "Mélanger les pâtes avec les œufs et le bacon."
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Salade César",
+        "duration": 20,
+        "ingredients": ["salade", "poulet", "croutons", "parmesan", "sauce César"],
+        "steps": [
+          "Cuire le poulet.",
+          "Mélanger les ingrédients dans un saladier."
+        ]
+      }
+    ]
+  }
+  
