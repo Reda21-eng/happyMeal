@@ -167,10 +167,10 @@ function clearShoppingList() {
 // Ajoutez ici les fonctions pour la pagination et le planning
 document.addEventListener("DOMContentLoaded",() =>{
     async function fetchData (){
-        let query = await fetch('./recettes.json')
+        let query = await fetch('./data.json')
         let response = await query.json()
         console.log(response,'result')
-        console.log(response)['recettes'][3]
+        console.log(response)['data'][3]
     }
      let submit = document.getElementById('submit')   
     
