@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
 async function loadRecipes() {
     try {
-        const response = await fetch('recettes.json');
+        const response = await fetch('data.json');
         state.recipes = await response.json();
         console.log(recipes);
     } catch (error) {

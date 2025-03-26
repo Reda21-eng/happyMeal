@@ -1,5 +1,4 @@
-{
-   "recettes":[
+[
       {
          "nom":"Poulet rôti aux herbes",
          "categorie":"Plat principal",
@@ -544,4 +543,3 @@
          ]
       }
    ]
-}
