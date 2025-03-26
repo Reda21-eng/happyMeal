@@ -29,7 +29,7 @@ body {
 
 .header {
   background: linear-gradient(135deg, var(--primary) 0%, #1a2533 100%);
-  color: white;
+  color: rgb(16, 14, 14);
   padding: 1.2rem var(--spacing);
   margin-bottom: 2rem;
   display: flex;
@@ -42,7 +42,7 @@ body {
 }
 
 .nav-link {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(249, 249, 249, 0.9);
   text-decoration: none;
   margin-left: 1.5rem;
   padding: 0.6rem 1.2rem;
@@ -50,6 +50,7 @@ body {
   transition: var(--transition);
   position: relative;
   font-weight: 500;
+  font-size: 1.2rem; /* Taille ajoutée ici */
 }
 
 .nav-link::after {
@@ -71,6 +72,12 @@ body {
 .nav-link:hover::after {
   width: 100%;
   left: 0;
+}
+
+.header {
+  background-image: url("./legume.jpg");
+  background-size: cover;
+  height: 350px;
 }
 
 .container {
