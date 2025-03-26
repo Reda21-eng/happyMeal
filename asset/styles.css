@@ -73,6 +73,12 @@ body {
   left: 0;
 }
 
+.header {
+  background-image: url("./images.webp");
+  background-size: cover;
+  height: 350px;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
