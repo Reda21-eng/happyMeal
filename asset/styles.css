@@ -75,9 +75,9 @@ body {
 }
 
 .header {
-  background-image: url("./legume.jpg");
+  background-image: url("./legume.jpg"); 
   background-size: cover;
-  height: 350px;
+  height: 150px;
 }
 
 .container {
@@ -296,3 +296,13 @@ body {
   margin: 0 auto;
   border-radius: 20px;
 }
+
+.logo {
+  width: 140px;
+  height: 140px;
+  /* margin-left: 00px; */
+  border-radius: 20px;
+
+}
+
+
