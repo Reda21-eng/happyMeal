@@ -1,8 +1,10 @@
 [
-    {
+  
+  {
       "id": "1",
       "name": "Poulet rôti aux herbes",
       "duration": 60,
+      "image": "./images/poulet.jpg",
       "ingredients": ["Poulet", "Herbes fraîches", "Sel et poivre", "Huile d'olive"],
       "steps": [
         "Préchauffez le four à 200°C.",
@@ -11,11 +13,13 @@
         "Placez le poulet dans un plat allant au four et enfournez-le pendant environ 1 heure ou jusqu'à ce qu'il soit bien doré et cuit à cœur.",
         "Laissez reposer quelques minutes avant de découper et de servir."
       ]
+    
     },
     {
       "id": "2",
       "name": "Salade de quinoa aux légumes grillés",
       "duration": 30,
+      "image": "./images/salade-quinoa.jpg",
       "ingredients": ["quinoa", "Poivron", "Sel et poivre", "Huile d'olive", "Jus de citron"],
       "steps": [
         "Cuire le quinoa selon les instructions sur l'emballage.",
@@ -29,6 +33,7 @@
       "id": "3",
       "name": "Tarte aux pommes",
       "duration": 60,
+      "image": "./images/tarte-aux-pommes.jpg",
       "ingredients": ["Pâte brisée", "Pomme", "Sucre", "Canelle", "Beurre", "Huile d'olive"],
       "steps": [
         "Préchauffez le four à 180°C.",
@@ -41,9 +46,11 @@
       ]
     },
     {
+      
       "id": "4",
       "name": "Soupe de lentilles",
       "duration": 60,
+      "image": "./images/soupe-de-lentille.jpg",
       "ingredients": ["Lentille", "Oignon", "Carottes", "Celeri", "Beurre", "Huile d'olive"],
       "steps": [
         "Dans une casserole, faites chauffer un peu d'huile d'olive.",
@@ -59,6 +66,7 @@
       "id": "5",
       "name": "Pâtes Carbonara",
       "duration": 20,
+      "image": "./images/pate-carbonara.jpg",
       "ingredients": ["Pates", "Lardon", "Oeuf", "Parmesan", "Beurre", "Huile d'olive"],
       "steps": [
         "Faites cuire les pâtes dans une grande casserole d'eau bouillante salée selon les instructions sur l'emballage jusqu'à ce qu'elles soient al dente.",
@@ -75,6 +83,7 @@
       "id": "6",
       "name": "Risotto aux champignons",
       "duration": 40,
+      "image": "./images/risotto.jpg",
       "ingredients": ["Riz", "Oignons", "Vin blanc", "Parmesan", "Beurre", "Huile d'olive"],
       "steps": [
         "Dans une grande poêle, faites chauffer l'huile d'olive à feu moyen.",
@@ -93,6 +102,7 @@
       "id": "7",
       "name": "Salade de fruits frais",
       "duration": 20,
+      "image": "./images/salade-fruits.jpg",
       "ingredients": [
         "Fruits variés (fraises, kiwis, oranges, raisins, etc.), coupés en morceaux",
         "Jus d'orange ou de citron",
@@ -110,8 +120,9 @@
     },
     {
       "id": "8",
-      "name": "Ratatouille provençale",
+      "name": "Ratatouille-provençale",
       "duration": 60,
+      "image": "./images/ratatouille.jpg",
       "ingredients": ["Aubergine", "Courgette", "Poivron", "Tomate", "Oignon", "Huile d'olive"],
       "steps": [
         "Coupez tous les légumes en dés de taille moyenne.",
@@ -128,6 +139,7 @@
       "id": "9",
       "name": "Salade César",
       "duration": 20,
+      "image": "./images/salade-cesar.jpg",
       "ingredients": ["Laitue", "Poulet", "Crouton", "Parmesan", "Beurre", "Huile d'olive"],
       "steps": [
         "Lavez et séchez la laitue romaine, puis déchirez-la en morceaux dans un grand bol.",
@@ -140,8 +152,9 @@
     },
     {
       "id": "10",
-      "name": "Risotto aux champignons",
+      "name": "Risotto-aux-champignons",
       "duration": 40,
+      "image": "./images/risotto.jpg",
       "ingredients": ["Riz", "Champignons", "Oignons", "Vin blanc", "Beurre", "Huile d'olive"],
       "steps": [
         "Nettoyez et coupez les champignons en tranches.",
@@ -156,4 +169,8 @@
         "Saupoudrez de persil frais haché avant de servir."
       ]
     }
+    
   ]
+
+
+    

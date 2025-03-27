@@ -18,7 +18,7 @@ async function loadRecipes() {
     try {
         const response = await fetch('data.json');
         state.recipes = await response.json();
-        console.log(recipes);
+        console.log(state.recipes);
     } catch (error) {
         console.error('Erreur de chargement des recettes:', error);
     }
@@ -69,7 +69,8 @@ function renderAllRecipes() {
 function recipeCard(recipe) {
     return `
         <div class="recipe-card" onclick="showRecipeModal('${recipe.id}')">
-            ${state.favorites.includes(recipe.id) ? '<div class="favorite-star">⭐</div>' : ''}
+            ${state.favorites.includes(recipe.id.toString()) ? '<div class="favorite-star">⭐</div>' : ''}
+            <img class="img_recipe_card" src="${recipe.image}" />
             <h3>${recipe.name}</h3>
             <p>⏱ ${recipe.duration} min</p>
             <p>🍴 ${recipe.ingredients.length} ingrédients</p>
@@ -79,7 +80,9 @@ function recipeCard(recipe) {
 
 // Gestion de la modale
 function showRecipeModal(id) {
-    const recipe = state.recipes.find(r => r.id === id);
+    console.log("ID reçu dans showRecipeModal:", id);
+    const recipe = state.recipes.find(r => r.id.toString() === id);
+    console.log("Recette trouvée:", recipe);
     const modal = document.getElementById('recipeModal');
     modal.style.display = 'flex';
     
@@ -115,14 +118,16 @@ function closeModal() {
 
 // Gestion des favoris
 function toggleFavorite(id) {
-    const index = state.favorites.indexOf(id);
+    const index = state.favorites.indexOf(id.toString());
     if(index === -1) {
-        state.favorites.push(id);
+        state.favorites.push(id.toString());
     } else {
         state.favorites.splice(index, 1);
     }
     localStorage.setItem('favorites', JSON.stringify(state.favorites));
+    
     renderAllRecipes();
+    renderRandomRecipes();
     closeModal();
 }
 
@@ -163,19 +168,19 @@ function clearShoppingList() {
     localStorage.setItem('shoppingList', JSON.stringify(state.shoppingList));
     renderShoppingList();
 }
+function renderPagination() {
+    const totalPages = Math.ceil(state.recipes.length / 9);
+    const paginationContainer = document.getElementById('pagination');
 
-// Ajoutez ici les fonctions pour la pagination et le planning
-document.addEventListener("DOMContentLoaded",() =>{
-    async function fetchData (){
-        let query = await fetch('./data.json')
-        let response = await query.json()
-        console.log(response,'result')
-        console.log(response)['data'][3]
+    paginationContainer.innerHTML = '';
+    for (let i = 1; i <= totalPages; i++) {
+        const button = document.createElement('button');
+        button.textContent = i;
+        button.className = i === state.currentPage ? 'active' : '';
+        button.addEventListener('click', () => {
+            state.currentPage = i;
+            renderAllRecipes();
+        });
+        paginationContainer.appendChild(button);
     }
-     let submit = document.getElementById('submit')   
-    
-    submit.addEventListener('click',() =>{
-        console.log("clické")
-        fetchData()
-    })
-})
+}
