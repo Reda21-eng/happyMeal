@@ -51,6 +51,16 @@ function updatePlanning(day, recipeId) {
     renderPlanning(); // Rafraîchir l'affichage
 }
 
+// Exporter le planning
+function exportpPlanning() {
+    const blob = new Blob([state.planning.join('\n')], { type: 'text/plain' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'planning_des_repas.txt';
+    link.click();
+}
+
+
 // Vider le planning
 function clearPlanning() {
     state.planning = {};
