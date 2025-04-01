@@ -53,12 +53,24 @@ function updatePlanning(day, recipeId) {
 
 // Exporter le planning
 function exportPlanning() {
-    const blob = new Blob([state.planning.join('\n')], { type: 'text/plain' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'planning_des_repas".pdf';
-    link.click();
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    // Ajouter un titre au PDF
+    doc.text('Planning des Repas', 10, 10);
+    
+    // Ajouter le contenu du planning
+    let yOffset = 20; // Position verticale de départ
+    Object.entries(state.planning).forEach(([day, recipeId]) => {
+        const recipe = state.recipes.find(r => r.id === recipeId);
+        doc.text(`${day}: ${recipe ? recipe.name : 'Aucune recette'}`, 10, yOffset);
+        yOffset += 10; // Décaler pour la ligne suivante
+    });
+    
+    // Télécharger le PDF
+    doc.save('planning_des_repas.pdf');
 }
+
 
 
 // Vider le planning
