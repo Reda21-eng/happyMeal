@@ -323,7 +323,7 @@ body {
   max-width: 100%; /* S'assure qu'il ne dépasse pas la barre de recherche */
   border-radius: 0 0 1rem 1rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  z-index: 1;
   display: none; /* Caché par défaut */
   max-height: 300px;
   overflow-y: auto;
@@ -343,5 +343,5 @@ body {
 .search-container {
   position: relative;
   margin: 2rem 0;
-  z-index: 1001; /* Au-dessus des autres éléments */
+  z-index: 1; /* Au-dessus des autres éléments */
 }
