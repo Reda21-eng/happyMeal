@@ -10,6 +10,7 @@
   --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -305,4 +306,42 @@ body {
 
 }
 
+/* .autocomplete-items{
+  position:absolute ;
+  left:31 px ;
+  padding-left:10px;
+  padding-right: 10px;
+  z-index: 1;
+  background-color:white;
+} */
 
+
+.autocomplete-items {
+  position: absolute;
+  background: white;
+  width: 100%;
+  max-width: 100%; /* S'assure qu'il ne dépasse pas la barre de recherche */
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: none; /* Caché par défaut */
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.autocomplete-item {
+  padding: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.autocomplete-item:hover {
+  background: var(--light);
+}
+
+/* Assure que le conteneur de recherche est positionné correctement */
+.search-container {
+  position: relative;
+  margin: 2rem 0;
+  z-index: 1001; /* Au-dessus des autres éléments */
+}

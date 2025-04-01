@@ -34,9 +34,32 @@ function showSection(sectionId) {
     if(sectionId === 'shopping') renderShoppingList();
 }
 
+
+function showAutocomplete(results) {
+    const container = document.getElementById('autocompleteList');
+    if (results.length > 0 && document.getElementById('searchInput').value.trim() !== '') {
+        container.innerHTML = results.slice(0, 5).map(recipe => `
+            <div class="autocomplete-item" onclick="showRecipeModal('${recipe.id}')">
+                ${recipe.name} - ${recipe.ingredients.slice(0, 2).join(', ')}...
+            </div>
+        `).join('');
+        container.style.display = 'block'; // Assure que la liste est visible
+    } else {
+        container.innerHTML = '';
+        container.style.display = 'none'; // Cache la liste quand il n'y a rien
+    }
+}
+
 // Gestion de la recherche
 document.getElementById('searchInput').addEventListener('input', function() {
-    const term = this.value.toLowerCase();
+    const term = this.value.toLowerCase().trim();
+    if (term === '') {
+        const container = document.getElementById('autocompleteList');
+        container.innerHTML = '';
+        container.style.display = 'none';
+        return;
+    }
+    
     const results = state.recipes.filter(recipe => 
         recipe.name.toLowerCase().includes(term) ||
         recipe.ingredients.some(ing => ing.toLowerCase().includes(term))
@@ -44,14 +67,16 @@ document.getElementById('searchInput').addEventListener('input', function() {
     showAutocomplete(results);
 });
 
-function showAutocomplete(results) {
-    const container = document.getElementById('autocompleteList');
-    container.innerHTML = results.slice(0, 5).map(recipe => `
-        <div class="autocomplete-item" onclick="showRecipeModal('${recipe.id}')">
-            ${recipe.name} - ${recipe.ingredients.slice(0, 2).join(', ')}...
-        </div>
-    `).join('');
-}
+document.addEventListener('click', function(event) {
+    const autocompleteList = document.getElementById('autocompleteList');
+    const searchInput = document.getElementById('searchInput');
+    
+    // Ferme l'autocomplete si on clique en dehors de l'input et de la liste
+    if (!searchInput.contains(event.target) && !autocompleteList.contains(event.target)) {
+        autocompleteList.innerHTML = '';
+        autocompleteList.style.display = 'none';
+    }
+});
 
 // Gestion des recettes
 function renderRandomRecipes() {

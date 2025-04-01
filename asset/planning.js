@@ -51,6 +51,7 @@ function updatePlanning(day, recipeId) {
     renderPlanning(); // Rafraîchir l'affichage
 }
 
+
 // Vider le planning
 function clearPlanning() {
     state.planning = {};
@@ -64,4 +65,4 @@ async function init() {
     renderPlanning();
 }
 
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded',init);
