@@ -76,7 +76,7 @@ body {
 }
 
 .header {
-  background-image: url("./legume.jpg"); 
+  background-image: url("./asset/legume.jpg"); 
   background-size: cover;
   height: 150px;
 }

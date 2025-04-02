@@ -95,7 +95,7 @@ function recipeCard(recipe) {
     return `
         <div class="recipe-card" onclick="showRecipeModal('${recipe.id}')">
             ${state.favorites.includes(recipe.id.toString()) ? '<div class="favorite-star">⭐</div>' : ''}
-            <img class="img_recipe_card" src="${recipe.image}" />
+            <img class="img_recipe_card" src="./asset/${recipe.image}" />
             <h3>${recipe.name}</h3>
             <p>⏱ ${recipe.duration} min</p>
             <p>🍴 ${recipe.ingredients.length} ingrédients</p>
