@@ -51,6 +51,30 @@ function updatePlanning(day, recipeId) {
     renderPlanning(); // Rafraîchir l'affichage
 }
 
+// Exporter le planning en PDF
+function exportPlanningToPDF() {
+    const { jsPDF } = window.jspdf; // Access jsPDF from the global window object
+    const doc = new jsPDF();
+
+    // Titre
+    doc.setFontSize(16);
+    doc.text("Planning des Repas", 20, 20);
+
+    // Contenu
+    doc.setFontSize(12);
+    let yPosition = 30; // Position verticale initiale
+    days.forEach((day) => {
+        const recipeId = state.planning[day];
+        const recipe = state.recipes.find(r => r.id === recipeId);
+        const recipeName = recipe ? recipe.name : "Aucune recette sélectionnée";
+        doc.text(`${day}: ${recipeName}`, 20, yPosition);
+        yPosition += 10; // Espacement entre les lignes
+    });
+
+    // Sauvegarder le PDF
+    doc.save('planning_repas.pdf');
+}
+
 
 // Vider le planning
 function clearPlanning() {
