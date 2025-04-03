@@ -181,11 +181,21 @@ function removeShoppingItem(item) {
 }
 
 function exportShoppingList() {
-    const blob = new Blob([state.shoppingList.join('\n')], { type: 'text/plain' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'liste_de_courses.txt';
-    link.click();
+    const { jsPDF } = window.jspdf; // Access jsPDF from the global window object
+    const doc = new jsPDF();
+
+    // Set document properties
+    doc.setFontSize(16);
+    doc.text("Liste de Courses", 20, 20); // Title at position (20, 20)
+
+    // Add shopping list items
+    doc.setFontSize(12);
+    state.shoppingList.forEach((item, index) => {
+        doc.text(`- ${item}`, 20, 30 + (index * 10)); // List items with 10-unit spacing
+    });
+
+    // Save the PDF
+    doc.save('liste_de_courses.pdf');
 }
 
 function clearShoppingList() {
