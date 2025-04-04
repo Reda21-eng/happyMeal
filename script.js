@@ -122,8 +122,8 @@ function showRecipeModal(id) {
         <ul>
             ${recipe.ingredients.map(ing => `
                 <li class="ingredient-item">
-                    ${ing.nom} - ${ing.quantité}
-                    <button class="btn btn-primary" onclick="addToShoppingList('${ing}')">+</button>
+                    ${ing.name}- ${ing.quantity}
+                    <button class="btn btn-primary" onclick="addToShoppingList('${ing.name}-${ing.quantity}')">+</button>
                 </li>
             `).join('')}
         </ul>
