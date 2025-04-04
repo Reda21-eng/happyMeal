@@ -5,7 +5,7 @@
       "name": "Poulet rôti aux herbes",
       "duration": 60,
       "image": "./images/poulet.jpg",
-      "ingredients et quantités": [ {
+      "ingredients": [ {
         "nom":"Poulet",
         "quantite":"1"
      },
