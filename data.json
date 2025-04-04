@@ -5,21 +5,21 @@
       "name": "Poulet rôti aux herbes",
       "duration": 60,
       "image": "./images/poulet.jpg",
-      "ingredients": [ {
-        "nom":"Poulet",
-        "quantite":"1"
+      "ingredients": [{
+        "name":"Poulet",
+        "quantity":"1"
      },
      {
-        "nom":"Herbes fraîches",
-        "quantite":"1"
+        "name":"Herbes fraîches",
+        "quantity":"1"
      },
      {
-        "nom":"Sel et poivre",
-        "quantite":"10g"
+        "name":"Sel et poivre",
+        "quantity":"10g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Préchauffez le four à 200°C.",
@@ -35,29 +35,29 @@
       "name": "Salade de quinoa aux légumes grillés",
       "duration": 30,
       "image": "./images/salade-quinoa.jpg",
-      "ingredients": [  {
-        "nom":"quinoa",
-        "quantite":"200g"
+      "ingredients": [{
+        "name":"quinoa",
+        "quantity":"200g"
      },
      {
-        "nom":"Poivron",
-        "quantite":"3"
+        "name":"Poivron",
+        "quantity":"3"
      },
      {
-        "nom":"Sel et poivre",
-        "quantite":"10g"
+        "name":"Sel et poivre",
+        "quantity":"10g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      },
      {
-        "nom":"Jus de citron",
-        "quantite":"10g"
+        "name":"Jus de citron",
+        "quantity":"10g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Cuire le quinoa selon les instructions sur l'emballage.",
@@ -112,7 +112,7 @@
       "name": "Soupe de lentilles",
       "duration": 60,
       "image": "./images/soupe-de-lentille.jpg",
-      "ingredients": [ {
+      "ingredients": [{
         "name":"Lentille",
         "quantity":"250g"
      },
@@ -151,12 +151,12 @@
       "name": "Pâtes Carbonara",
       "duration": 20,
       "image": "./images/pate-carbonara.jpg",
-      "ingredients": [ {
-        "nom":"Lentille",
-        "quantite":"250g"
+      "ingredients": [{
+        "name":"Lentille",
+        "quantity":"250g"
      },
      {
-        "namz":"Oignon",
+        "name":"Oignon",
         "quantity":"3"
      },
      {
@@ -191,7 +191,7 @@
       "name": "Risotto aux champignons",
       "duration": 40,
       "image": "./images/risotto.jpg",
-      "ingredients": [ {
+      "ingredients": [{
         "name":"Riz",
         "quantity":"100g"
      },
@@ -238,11 +238,11 @@
       "duration": 20,
       "image": "./images/salade-fruits.jpg",
       "ingredients": [
-        "Fruits variés (fraises, kiwis, oranges, raisins, etc.), coupés en morceaux",
-        "Jus d'orange ou de citron",
-        "Miel ou sirop d'érable (facultatif)",
-        "Feuilles de menthe fraîche pour garnir"
-      ],
+        {"name":"Fruits variés (fraises, kiwis, oranges, raisins, etc.), coupés en morceaux"},
+        {"name":"Jus d'orange ou de citron"},
+        {"name" :"Miel ou sirop d'érable (facultatif)"},
+        {"name"  : "Feuilles de menthe fraîche pour garnir"}
+    ],
       "steps": [
         "Coupez tous les fruits en morceaux de taille similaire et placez-les dans un grand bol.",
         "Arrosez les fruits avec un peu de jus d'orange ou de citron pour les empêcher de brunir et pour ajouter de la fraîcheur.",
@@ -297,7 +297,7 @@
       "name": "Salade César",
       "duration": 20,
       "image": "./images/salade-cesar.jpg",
-      "ingredients": [ {
+      "ingredients": [{
         "name":"Laitue",
         "quantity":"1"
      },
@@ -335,9 +335,9 @@
       "name": "Risotto-aux-champignons",
       "duration": 40,
       "image": "./images/risotto.jpg",
-      "ingredients": [ {
-        "nom":"Riz",
-        "quantite":"100g"
+      "ingredients": [{
+        "name":"Riz",
+        "quantity":"100g"
      },
      {
         "name":"Champignons",
