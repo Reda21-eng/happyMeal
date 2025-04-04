@@ -73,28 +73,28 @@
       "duration": 60,
       "image": "./images/tarte-aux-pommes.jpg",
       "ingredients": [{
-        "nom":"Pâte brisée",
-        "quantite":"1"
+        "name":"Pâte brisée",
+        "quantity":"1"
      },
      {
-        "nom":"Pomme",
-        "quantite":"3"
+        "name":"Pomme",
+        "quantity":"3"
      },
      {
-        "nom":"Sucre",
-        "quantite":"50g"
+        "name":"Sucre",
+        "quantity":"50g"
      },
      {
-        "nom":"Canelle",
-        "quantite":"10g"
+        "name":"Canelle",
+        "quantity":"10g"
      },
      {
-        "nom":"Beurre",
-        "quantite":"10g"
+        "name":"Beurre",
+        "quantity":"10g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Préchauffez le four à 180°C.",
@@ -113,28 +113,28 @@
       "duration": 60,
       "image": "./images/soupe-de-lentille.jpg",
       "ingredients": [ {
-        "nom":"Lentille",
-        "quantite":"250g"
+        "name":"Lentille",
+        "quantity":"250g"
      },
      {
-        "nom":"Oignon",
-        "quantite":"3"
+        "name":"Oignon",
+        "quantity":"3"
      },
      {
-        "nom":"Carottes",
-        "quantite":"50g"
+        "name":"Carottes",
+        "quantity":"50g"
      },
      {
-        "nom":"Celeri",
-        "quantite":"10g"
+        "name":"Celeri",
+        "quantity":"10g"
      },
      {
-        "nom":"Beurre",
-        "quantite":"10g"
+        "name":"Beurre",
+        "quantity":"10g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Dans une casserole, faites chauffer un peu d'huile d'olive.",
@@ -156,24 +156,24 @@
         "quantite":"250g"
      },
      {
-        "nom":"Oignon",
-        "quantite":"3"
+        "namz":"Oignon",
+        "quantity":"3"
      },
      {
-        "nom":"Carottes",
-        "quantite":"50g"
+        "name":"Carottes",
+        "quantity":"50g"
      },
      {
-        "nom":"Celeri",
-        "quantite":"10g"
+        "name":"Celeri",
+        "quantity":"10g"
      },
      {
-        "nom":"Beurre",
-        "quantite":"10g"
+        "name":"Beurre",
+        "quantity":"10g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Faites cuire les pâtes dans une grande casserole d'eau bouillante salée selon les instructions sur l'emballage jusqu'à ce qu'elles soient al dente.",
@@ -192,32 +192,32 @@
       "duration": 40,
       "image": "./images/risotto.jpg",
       "ingredients": [ {
-        "nom":"Riz",
-        "quantite":"100g"
+        "name":"Riz",
+        "quantity":"100g"
      },
      {
-      "nom":"Champignons",
-      "quantite":"500g"
+      "name":"Champignons",
+      "quantity":"500g"
      },
      {
-        "nom":"Oigons",
-        "quantite":"3"
+        "name":"Oigons",
+        "quantity":"3"
      },
      {
-        "nom":"Vin blanc",
-        "quantite":"50g"
+        "name":"Vin blanc",
+        "quantity":"50g"
      },
      {
-        "nom":"Parmesan",
-        "quantite":"50g"
+        "name":"Parmesan",
+        "quantity":"50g"
      },
      {
-        "nom":"Beurre",
-        "quantite":"10g"
+        "name":"Beurre",
+        "quantity":"10g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Dans une grande poêle, faites chauffer l'huile d'olive à feu moyen.",
@@ -258,28 +258,28 @@
       "duration": 60,
       "image": "./images/ratatouille.jpg",
       "ingredients": [{
-        "nom":"Aubergine",
-        "quantite":"1"
+        "name":"Aubergine",
+        "quantity":"1"
      },
      {
-        "nom":"Courgette",
-        "quantite":"3"
+        "name":"Courgette",
+        "quantity":"3"
      },
      {
-        "nom":"Poivron",
-        "quantite":"2"
+        "name":"Poivron",
+        "quantity":"2"
      },
      {
-        "nom":"Tomate",
-        "quantite":"4"
+        "name":"Tomate",
+        "quantity":"4"
      },
      {
-        "nom":"Oignon",
-        "quantite":"2"
+        "name":"Oignon",
+        "quantity":"2"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Coupez tous les légumes en dés de taille moyenne.",
@@ -298,28 +298,28 @@
       "duration": 20,
       "image": "./images/salade-cesar.jpg",
       "ingredients": [ {
-        "nom":"Laitue",
-        "quantite":"1"
+        "name":"Laitue",
+        "quantity":"1"
      },
      {
-        "nom":"Poulet",
-        "quantite":"1"
+        "name":"Poulet",
+        "quantity":"1"
      },
      {
-        "nom":"Crouton",
-        "quantite":"50g"
+        "name":"Crouton",
+        "quantity":"50g"
      },
      {
-        "nom":"Parmesan",
-        "quantite":"50g"
+        "name":"Parmesan",
+        "quantity":"50g"
      },
      {
-        "nom":"Beurre",
-        "quantite":"10g"
+        "name":"Beurre",
+        "quantity":"10g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Lavez et séchez la laitue romaine, puis déchirez-la en morceaux dans un grand bol.",
@@ -340,24 +340,24 @@
         "quantite":"100g"
      },
      {
-        "nom":"Champignons",
-        "quantite":"500g"
+        "name":"Champignons",
+        "quantity":"500g"
      },
      {
-        "nom":"Oignons",
-        "quantite":"3"
+        "name":"Oignons",
+        "quantity":"3"
      },
      {
-        "nom":"Vin blanc",
-        "quantite":"50g"
+        "name":"Vin blanc",
+        "quantity":"50g"
      },
      {
-        "nom":"Beurre",
-        "quantite":"50g"
+        "name":"Beurre",
+        "quantity":"50g"
      },
      {
-        "nom":"Huile d'olive",
-        "quantite":"10g"
+        "name":"Huile d'olive",
+        "quantity":"10g"
      }],
       "steps": [
         "Nettoyez et coupez les champignons en tranches.",
