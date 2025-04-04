@@ -5,22 +5,7 @@
       "name": "Poulet rôti aux herbes",
       "duration": 60,
       "image": "./images/poulet.jpg",
-      "ingredients": [{
-        "name":"Poulet",
-        "quantity":"1"
-     },
-     {
-        "name":"Herbes fraîches",
-        "quantity":"1"
-     },
-     {
-        "name":"Sel et poivre",
-        "quantity":"10g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["1 Poulet", "1 Herbes fraîches", " 10g Sel et poivre", " 10g Huile d'olive"],
       "steps": [
         "Préchauffez le four à 200°C.",
         "Nettoyez le poulet et assaisonnez-le généreusement avec du sel, du poivre et les herbes.",
@@ -35,30 +20,7 @@
       "name": "Salade de quinoa aux légumes grillés",
       "duration": 30,
       "image": "./images/salade-quinoa.jpg",
-      "ingredients": [{
-        "name":"quinoa",
-        "quantity":"200g"
-     },
-     {
-        "name":"Poivron",
-        "quantity":"3"
-     },
-     {
-        "name":"Sel et poivre",
-        "quantity":"10g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     },
-     {
-        "name":"Jus de citron",
-        "quantity":"10g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["quinoa", "Poivron", "Sel et poivre", "Huile d'olive", "Jus de citron"],
       "steps": [
         "Cuire le quinoa selon les instructions sur l'emballage.",
         "Coupez les légumes en morceaux et faites-les griller avec un filet d'huile d'olive jusqu'à ce qu'ils soient tendres et légèrement dorés.",
@@ -72,30 +34,7 @@
       "name": "Tarte aux pommes",
       "duration": 60,
       "image": "./images/tarte-aux-pommes.jpg",
-      "ingredients": [{
-        "name":"Pâte brisée",
-        "quantity":"1"
-     },
-     {
-        "name":"Pomme",
-        "quantity":"3"
-     },
-     {
-        "name":"Sucre",
-        "quantity":"50g"
-     },
-     {
-        "name":"Canelle",
-        "quantity":"10g"
-     },
-     {
-        "name":"Beurre",
-        "quantity":"10g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["Pâte brisée", "Pomme", "Sucre", "Canelle", "Beurre", "Huile d'olive"],
       "steps": [
         "Préchauffez le four à 180°C.",
         "Étalez la pâte brisée dans un moule à tarte.",
@@ -112,30 +51,7 @@
       "name": "Soupe de lentilles",
       "duration": 60,
       "image": "./images/soupe-de-lentille.jpg",
-      "ingredients": [{
-        "name":"Lentille",
-        "quantity":"250g"
-     },
-     {
-        "name":"Oignon",
-        "quantity":"3"
-     },
-     {
-        "name":"Carottes",
-        "quantity":"50g"
-     },
-     {
-        "name":"Celeri",
-        "quantity":"10g"
-     },
-     {
-        "name":"Beurre",
-        "quantity":"10g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["Lentille", "Oignon", "Carottes", "Celeri", "Beurre", "Huile d'olive"],
       "steps": [
         "Dans une casserole, faites chauffer un peu d'huile d'olive.",
         "Faites revenir l'oignon haché, l'ail émincé, les carottes et le céleri coupés en dés pendant quelques minutes.",
@@ -151,30 +67,7 @@
       "name": "Pâtes Carbonara",
       "duration": 20,
       "image": "./images/pate-carbonara.jpg",
-      "ingredients": [{
-        "name":"Lentille",
-        "quantity":"250g"
-     },
-     {
-        "name":"Oignon",
-        "quantity":"3"
-     },
-     {
-        "name":"Carottes",
-        "quantity":"50g"
-     },
-     {
-        "name":"Celeri",
-        "quantity":"10g"
-     },
-     {
-        "name":"Beurre",
-        "quantity":"10g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["Pates", "Lardon", "Oeuf", "Parmesan", "Beurre", "Huile d'olive"],
       "steps": [
         "Faites cuire les pâtes dans une grande casserole d'eau bouillante salée selon les instructions sur l'emballage jusqu'à ce qu'elles soient al dente.",
         "Pendant ce temps, faites chauffer un peu d'huile d'olive dans une poêle et faites revenir la pancetta ou les lardons jusqu'à ce qu'ils soient croustillants.",
@@ -191,34 +84,7 @@
       "name": "Risotto aux champignons",
       "duration": 40,
       "image": "./images/risotto.jpg",
-      "ingredients": [{
-        "name":"Riz",
-        "quantity":"100g"
-     },
-     {
-      "name":"Champignons",
-      "quantity":"500g"
-     },
-     {
-        "name":"Oigons",
-        "quantity":"3"
-     },
-     {
-        "name":"Vin blanc",
-        "quantity":"50g"
-     },
-     {
-        "name":"Parmesan",
-        "quantity":"50g"
-     },
-     {
-        "name":"Beurre",
-        "quantity":"10g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["Riz", "Oignons", "Vin blanc", "Parmesan", "Beurre", "Huile d'olive"],
       "steps": [
         "Dans une grande poêle, faites chauffer l'huile d'olive à feu moyen.",
         "Ajoutez l'oignon et faites-le revenir jusqu'à ce qu'il soit translucide.",
@@ -238,11 +104,11 @@
       "duration": 20,
       "image": "./images/salade-fruits.jpg",
       "ingredients": [
-        {"name":"Fruits variés (fraises, kiwis, oranges, raisins, etc.), coupés en morceaux"},
-        {"name":"Jus d'orange ou de citron"},
-        {"name" :"Miel ou sirop d'érable (facultatif)"},
-        {"name"  : "Feuilles de menthe fraîche pour garnir"}
-    ],
+        "Fruits variés (fraises, kiwis, oranges, raisins, etc.), coupés en morceaux",
+        "Jus d'orange ou de citron",
+        "Miel ou sirop d'érable (facultatif)",
+        "Feuilles de menthe fraîche pour garnir"
+      ],
       "steps": [
         "Coupez tous les fruits en morceaux de taille similaire et placez-les dans un grand bol.",
         "Arrosez les fruits avec un peu de jus d'orange ou de citron pour les empêcher de brunir et pour ajouter de la fraîcheur.",
@@ -257,30 +123,7 @@
       "name": "Ratatouille-provençale",
       "duration": 60,
       "image": "./images/ratatouille.jpg",
-      "ingredients": [{
-        "name":"Aubergine",
-        "quantity":"1"
-     },
-     {
-        "name":"Courgette",
-        "quantity":"3"
-     },
-     {
-        "name":"Poivron",
-        "quantity":"2"
-     },
-     {
-        "name":"Tomate",
-        "quantity":"4"
-     },
-     {
-        "name":"Oignon",
-        "quantity":"2"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["Aubergine", "Courgette", "Poivron", "Tomate", "Oignon", "Huile d'olive"],
       "steps": [
         "Coupez tous les légumes en dés de taille moyenne.",
         "Dans une grande poêle, faites chauffer l'huile d'olive à feu moyen.",
@@ -297,30 +140,7 @@
       "name": "Salade César",
       "duration": 20,
       "image": "./images/salade-cesar.jpg",
-      "ingredients": [{
-        "name":"Laitue",
-        "quantity":"1"
-     },
-     {
-        "name":"Poulet",
-        "quantity":"1"
-     },
-     {
-        "name":"Crouton",
-        "quantity":"50g"
-     },
-     {
-        "name":"Parmesan",
-        "quantity":"50g"
-     },
-     {
-        "name":"Beurre",
-        "quantity":"10g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["Laitue", "Poulet", "Crouton", "Parmesan", "Beurre", "Huile d'olive"],
       "steps": [
         "Lavez et séchez la laitue romaine, puis déchirez-la en morceaux dans un grand bol.",
         "Ajoutez le poulet grillé coupé en morceaux, les croûtons et le parmesan râpé.",
@@ -335,30 +155,7 @@
       "name": "Risotto-aux-champignons",
       "duration": 40,
       "image": "./images/risotto.jpg",
-      "ingredients": [{
-        "name":"Riz",
-        "quantity":"100g"
-     },
-     {
-        "name":"Champignons",
-        "quantity":"500g"
-     },
-     {
-        "name":"Oignons",
-        "quantity":"3"
-     },
-     {
-        "name":"Vin blanc",
-        "quantity":"50g"
-     },
-     {
-        "name":"Beurre",
-        "quantity":"50g"
-     },
-     {
-        "name":"Huile d'olive",
-        "quantity":"10g"
-     }],
+      "ingredients": ["Riz", "Champignons", "Oignons", "Vin blanc", "Beurre", "Huile d'olive"],
       "steps": [
         "Nettoyez et coupez les champignons en tranches.",
         "Dans une grande poêle, faites chauffer un peu d'huile d'olive et faites revenir l'oignon haché et l'ail émincé jusqu'à ce qu'ils soient translucides.",
