@@ -20,7 +20,7 @@
       "name": "Salade de quinoa aux légumes grillés",
       "duration": 30,
       "image": "./images/salade-quinoa.jpg",
-      "ingredients": ["quinoa", "Poivron", "Sel et poivre", "Huile d'olive", "Jus de citron"],
+      "ingredients": ["200g quinoa", "3 Poivron", "10g Sel et poivre", "10g Huile d'olive", "10g Jus de citron"],
       "steps": [
         "Cuire le quinoa selon les instructions sur l'emballage.",
         "Coupez les légumes en morceaux et faites-les griller avec un filet d'huile d'olive jusqu'à ce qu'ils soient tendres et légèrement dorés.",
@@ -34,7 +34,7 @@
       "name": "Tarte aux pommes",
       "duration": 60,
       "image": "./images/tarte-aux-pommes.jpg",
-      "ingredients": ["Pâte brisée", "Pomme", "Sucre", "Canelle", "Beurre", "Huile d'olive"],
+      "ingredients": ["1 Pâte brisée", "3 Pomme", " 50g Sucre", "10g Canelle", "10g Beurre", "10g Huile d'olive"],
       "steps": [
         "Préchauffez le four à 180°C.",
         "Étalez la pâte brisée dans un moule à tarte.",
@@ -51,7 +51,7 @@
       "name": "Soupe de lentilles",
       "duration": 60,
       "image": "./images/soupe-de-lentille.jpg",
-      "ingredients": ["Lentille", "Oignon", "Carottes", "Celeri", "Beurre", "Huile d'olive"],
+      "ingredients": ["250g Lentille", "3 Oignon", "50g Carottes", "10g Celeri", "10g Beurre", "10g Huile d'olive"],
       "steps": [
         "Dans une casserole, faites chauffer un peu d'huile d'olive.",
         "Faites revenir l'oignon haché, l'ail émincé, les carottes et le céleri coupés en dés pendant quelques minutes.",
@@ -67,7 +67,7 @@
       "name": "Pâtes Carbonara",
       "duration": 20,
       "image": "./images/pate-carbonara.jpg",
-      "ingredients": ["Pates", "Lardon", "Oeuf", "Parmesan", "Beurre", "Huile d'olive"],
+      "ingredients": ["500g Pates", "300g Lardon", "3 Oeuf", "50g Parmesan", "10g Beurre", "10g Huile d'olive"],
       "steps": [
         "Faites cuire les pâtes dans une grande casserole d'eau bouillante salée selon les instructions sur l'emballage jusqu'à ce qu'elles soient al dente.",
         "Pendant ce temps, faites chauffer un peu d'huile d'olive dans une poêle et faites revenir la pancetta ou les lardons jusqu'à ce qu'ils soient croustillants.",
@@ -84,7 +84,7 @@
       "name": "Risotto aux champignons",
       "duration": 40,
       "image": "./images/risotto.jpg",
-      "ingredients": ["Riz", "Oignons", "Vin blanc", "Parmesan", "Beurre", "Huile d'olive"],
+      "ingredients": ["300g Riz", "3 Oignons", "50g Vin blanc", "50g Parmesan", "10g Beurre", "10g Huile d'olive"],
       "steps": [
         "Dans une grande poêle, faites chauffer l'huile d'olive à feu moyen.",
         "Ajoutez l'oignon et faites-le revenir jusqu'à ce qu'il soit translucide.",
@@ -123,7 +123,7 @@
       "name": "Ratatouille-provençale",
       "duration": 60,
       "image": "./images/ratatouille.jpg",
-      "ingredients": ["Aubergine", "Courgette", "Poivron", "Tomate", "Oignon", "Huile d'olive"],
+      "ingredients": ["1 Aubergine", "3 Courgette", "2 Poivron", "4 Tomate", "2 Oignon", "10g Huile d'olive"],
       "steps": [
         "Coupez tous les légumes en dés de taille moyenne.",
         "Dans une grande poêle, faites chauffer l'huile d'olive à feu moyen.",
@@ -140,7 +140,7 @@
       "name": "Salade César",
       "duration": 20,
       "image": "./images/salade-cesar.jpg",
-      "ingredients": ["Laitue", "Poulet", "Crouton", "Parmesan", "Beurre", "Huile d'olive"],
+      "ingredients": ["1 Laitue", "1 Poulet", "50g Crouton", "50g Parmesan", "10g Beurre", "10g Huile d'olive"],
       "steps": [
         "Lavez et séchez la laitue romaine, puis déchirez-la en morceaux dans un grand bol.",
         "Ajoutez le poulet grillé coupé en morceaux, les croûtons et le parmesan râpé.",
@@ -155,7 +155,7 @@
       "name": "Risotto-aux-champignons",
       "duration": 40,
       "image": "./images/risotto.jpg",
-      "ingredients": ["Riz", "Champignons", "Oignons", "Vin blanc", "Beurre", "Huile d'olive"],
+      "ingredients": ["300g Riz", "3 Champignons", "50g Oignons", "50g Vin blanc", "10g Beurre", "10g Huile d'olive"],
       "steps": [
         "Nettoyez et coupez les champignons en tranches.",
         "Dans une grande poêle, faites chauffer un peu d'huile d'olive et faites revenir l'oignon haché et l'ail émincé jusqu'à ce qu'ils soient translucides.",
