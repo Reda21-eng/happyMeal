@@ -5,7 +5,7 @@
       "name": "Poulet rôti aux herbes",
       "duration": 60,
       "image": "./images/poulet.jpg",
-      "ingredients": [" 1 Poulet", "1 Herbes fraîches", "10g Sel et poivre", "10g Huile d'olive"],
+      "ingredients et quantités": [" 1 Poulet", "1 Herbes fraîches", "10g Sel et poivre", "10g Huile d'olive"],
       "steps": [
         "Préchauffez le four à 200°C.",
         "Nettoyez le poulet et assaisonnez-le généreusement avec du sel, du poivre et les herbes.",
